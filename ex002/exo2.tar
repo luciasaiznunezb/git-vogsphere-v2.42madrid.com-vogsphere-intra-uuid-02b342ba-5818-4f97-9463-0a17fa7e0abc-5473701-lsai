@@ -1,0 +1,32 @@
+mkdir ex02
+cd ex02
+ls - 1 > test0 
+chmod u=rxw test0
+chmod g=—x test0
+chmod o=r-x test0
+ls - 1 > test1 
+chmod u=rwx test1
+chmod g=--x test1
+chmod o=r-- test1
+ls - 1 > test2
+chmod u=r-x test2
+chmod g=--- test2
+chmod o=r-- test2
+ls - 1 > test3
+chmod u=r-- test3
+chmod g=--- test3
+chmod o=r-- test3
+ls - 1 > test4
+chmod u=rw- test4
+chmod g=--- test4
+chmod o=r-- test4
+ls - 1 > test5
+chmod u=r-- test5
+chmod g=--- test5
+chmod o=r-- test5
+ls - 1 > test6
+chmod u=rwx test6
+chmod g=rwx test6
+chmod o=rwx test6
+ls - ls
+tar -cf exo2.tar *
