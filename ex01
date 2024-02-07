@@ -1,3 +1,0 @@
-mkdir testShell00
-ls -ls
-tar -c -f testShell00.tar testShell00
